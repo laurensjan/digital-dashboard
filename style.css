@@ -1,0 +1,75 @@
+body {
+  padding-top: 5rem;
+}
+
+.text-group {
+  margin-bottom: 1rem;
+}
+.legend {
+  font-size: .7rem;
+  font-weight: 700;
+  color: #545454;
+}
+
+
+.process-container {
+  margin: 2rem auto 2rem;
+}
+
+.process-card, .subprocess-card-container, .control-container {
+  display: grid;
+}
+
+
+
+.process-card {
+  grid-template-columns: 4rem auto;
+}
+
+
+
+.subprocess-container {
+  border-bottom: 2px white solid;
+}
+.subprocess-card-container {
+  background-color: #f2f2f2;
+  grid-template-columns: 4rem auto;
+  
+}
+.subprocess-card-container:hover {
+  background-color: #e5e5e5;
+  cursor: pointer;
+}
+.status {
+  text-align: center;
+  padding-top: 2.5rem;
+  font-size: 1rem;
+}
+
+.status-effective {
+  background-color: #c2edc8;
+  color: green;
+}
+.status-ineffective {
+  background-color: #ffb5be;
+  color: #bc1c2f;
+}
+
+.subprocess-content, .control-content {
+  padding: 1rem 1rem 0 1rem;
+}
+
+.control-container {
+  background-color: #f9f9f9;
+  margin-left: 2rem;
+  border-top: 2px white solid;
+  grid-template-columns: 2rem auto;
+}
+.show-controls {
+  padding-top: 2rem;
+  
+}
+.show-controls-action {
+  
+  cursor: pointer;
+}
